@@ -1,4 +1,4 @@
-package br.edu.fatec.delivery.cliente.exception;
+package br.edu.fatec.delivery.cliente.dto;
 
 import java.time.Instant;
 
