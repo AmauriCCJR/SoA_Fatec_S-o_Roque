@@ -47,7 +47,7 @@ public class ClienteController {
     }
 
     @PatchMapping("/{id}/status")
-    public ClienteResponse alterarStatus( PathVariable Long id, @RequestBody ClienteStatusRequest request) {
+    public ClienteResponse alterarStatus(@PathVariable Long id, @RequestBody ClienteStatusRequest request) {
         return service.alterarStatus( id, request.ativo() );
     }
 }
